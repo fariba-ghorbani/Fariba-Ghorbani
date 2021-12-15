@@ -1,7 +1,6 @@
 function check(num) {
     return num != -1;
 }
-
 function solution(arr) {
     let temp = (arr.filter(check)).sort();
     console.log(temp)
