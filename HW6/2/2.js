@@ -3,7 +3,6 @@ function check(num) {
 }
 function solution(arr) {
     let temp = (arr.filter(check)).sort();
-    console.log(temp)
     let j = 0;
     for (let i of temp) {
         while (arr[j] === -1) {
